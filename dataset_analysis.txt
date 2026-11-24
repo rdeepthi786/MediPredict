@@ -1,0 +1,362 @@
+MEDIPREDICT DATASET ANALYSIS
+============================================================
+
+Dataset: dataset.csv
+Rows: 4920
+Columns: 18
+
+COLUMNS
+------------------------------------------------------------
+Disease
+Symptom_1
+Symptom_2
+Symptom_3
+Symptom_4
+Symptom_5
+Symptom_6
+Symptom_7
+Symptom_8
+Symptom_9
+Symptom_10
+Symptom_11
+Symptom_12
+Symptom_13
+Symptom_14
+Symptom_15
+Symptom_16
+Symptom_17
+
+DISEASES
+------------------------------------------------------------
+Unique diseases: 41
+
+Fungal infection: 120
+Allergy: 120
+GERD: 120
+Chronic cholestasis: 120
+Drug Reaction: 120
+Peptic ulcer diseae: 120
+AIDS: 120
+Diabetes: 120
+Gastroenteritis: 120
+Bronchial Asthma: 120
+Hypertension: 120
+Migraine: 120
+Cervical spondylosis: 120
+Paralysis (brain hemorrhage): 120
+Jaundice: 120
+Malaria: 120
+Chicken pox: 120
+Dengue: 120
+Typhoid: 120
+hepatitis A: 120
+Hepatitis B: 120
+Hepatitis C: 120
+Hepatitis D: 120
+Hepatitis E: 120
+Alcoholic hepatitis: 120
+Tuberculosis: 120
+Common Cold: 120
+Pneumonia: 120
+Dimorphic hemmorhoids(piles): 120
+Heart attack: 120
+Varicose veins: 120
+Hypothyroidism: 120
+Hyperthyroidism: 120
+Hypoglycemia: 120
+Osteoarthristis: 120
+Arthritis: 120
+(vertigo) Paroymsal  Positional Vertigo: 120
+Acne: 120
+Urinary tract infection: 120
+Psoriasis: 120
+Impetigo: 120
+
+SYMPTOMS
+------------------------------------------------------------
+Unique symptoms: 131
+
+1. abdominal_pain
+2. abnormal_menstruation
+3. acidity
+4. acute_liver_failure
+5. altered_sensorium
+6. anxiety
+7. back_pain
+8. belly_pain
+9. blackheads
+10. bladder_discomfort
+11. blister
+12. blood_in_sputum
+13. bloody_stool
+14. blurred_and_distorted_vision
+15. breathlessness
+16. brittle_nails
+17. bruising
+18. burning_micturition
+19. chest_pain
+20. chills
+21. cold_hands_and_feets
+22. coma
+23. congestion
+24. constipation
+25. continuous_feel_of_urine
+26. continuous_sneezing
+27. cough
+28. cramps
+29. dark_urine
+30. dehydration
+31. depression
+32. diarrhoea
+33. dischromic _patches
+34. distention_of_abdomen
+35. dizziness
+36. drying_and_tingling_lips
+37. enlarged_thyroid
+38. excessive_hunger
+39. extra_marital_contacts
+40. family_history
+41. fast_heart_rate
+42. fatigue
+43. fluid_overload
+44. foul_smell_of urine
+45. headache
+46. high_fever
+47. hip_joint_pain
+48. history_of_alcohol_consumption
+49. increased_appetite
+50. indigestion
+51. inflammatory_nails
+52. internal_itching
+53. irregular_sugar_level
+54. irritability
+55. irritation_in_anus
+56. itching
+57. joint_pain
+58. knee_pain
+59. lack_of_concentration
+60. lethargy
+61. loss_of_appetite
+62. loss_of_balance
+63. loss_of_smell
+64. malaise
+65. mild_fever
+66. mood_swings
+67. movement_stiffness
+68. mucoid_sputum
+69. muscle_pain
+70. muscle_wasting
+71. muscle_weakness
+72. nausea
+73. neck_pain
+74. nodal_skin_eruptions
+75. obesity
+76. pain_behind_the_eyes
+77. pain_during_bowel_movements
+78. pain_in_anal_region
+79. painful_walking
+80. palpitations
+81. passage_of_gases
+82. patches_in_throat
+83. phlegm
+84. polyuria
+85. prominent_veins_on_calf
+86. puffy_face_and_eyes
+87. pus_filled_pimples
+88. receiving_blood_transfusion
+89. receiving_unsterile_injections
+90. red_sore_around_nose
+91. red_spots_over_body
+92. redness_of_eyes
+93. restlessness
+94. runny_nose
+95. rusty_sputum
+96. scurring
+97. shivering
+98. silver_like_dusting
+99. sinus_pressure
+100. skin_peeling
+101. skin_rash
+102. slurred_speech
+103. small_dents_in_nails
+104. spinning_movements
+105. spotting_ urination
+106. stiff_neck
+107. stomach_bleeding
+108. stomach_pain
+109. sunken_eyes
+110. sweating
+111. swelled_lymph_nodes
+112. swelling_joints
+113. swelling_of_stomach
+114. swollen_blood_vessels
+115. swollen_extremeties
+116. swollen_legs
+117. throat_irritation
+118. toxic_look_(typhos)
+119. ulcers_on_tongue
+120. unsteadiness
+121. visual_disturbances
+122. vomiting
+123. watering_from_eyes
+124. weakness_in_limbs
+125. weakness_of_one_body_side
+126. weight_gain
+127. weight_loss
+128. yellow_crust_ooze
+129. yellow_urine
+130. yellowing_of_eyes
+131. yellowish_skin
+
+SYMPTOM FREQUENCY
+------------------------------------------------------------
+fatigue: 1932
+vomiting: 1914
+high_fever: 1362
+loss_of_appetite: 1152
+nausea: 1146
+headache: 1134
+abdominal_pain: 1032
+yellowish_skin: 912
+yellowing_of_eyes: 816
+chills: 798
+skin_rash: 786
+malaise: 702
+chest_pain: 696
+joint_pain: 684
+itching: 678
+sweating: 678
+dark_urine: 570
+cough: 564
+diarrhoea: 564
+irritability: 474
+muscle_pain: 474
+excessive_hunger: 462
+weight_loss: 456
+lethargy: 456
+breathlessness: 450
+mild_fever: 354
+phlegm: 354
+swelled_lymph_nodes: 348
+loss_of_balance: 342
+blurred_and_distorted_vision: 342
+dizziness: 336
+abnormal_menstruation: 240
+muscle_weakness: 234
+depression: 234
+fast_heart_rate: 234
+red_spots_over_body: 234
+back_pain: 228
+constipation: 228
+mood_swings: 228
+neck_pain: 228
+stiff_neck: 228
+restlessness: 228
+swelling_joints: 228
+obesity: 228
+family_history: 228
+painful_walking: 228
+continuous_sneezing: 222
+stomach_pain: 222
+acidity: 222
+indigestion: 222
+burning_micturition: 216
+enlarged_thyroid: 120
+increased_appetite: 120
+brittle_nails: 120
+polyuria: 120
+pain_behind_the_eyes: 120
+throat_irritation: 120
+swollen_extremeties: 120
+slurred_speech: 120
+receiving_blood_transfusion: 120
+redness_of_eyes: 120
+rusty_sputum: 120
+receiving_unsterile_injections: 120
+coma: 120
+sinus_pressure: 120
+palpitations: 120
+stomach_bleeding: 120
+runny_nose: 120
+congestion: 120
+blood_in_sputum: 120
+loss_of_smell: 120
+pain_during_bowel_movements: 114
+cramps: 114
+weight_gain: 114
+bladder_discomfort: 114
+pain_in_anal_region: 114
+bruising: 114
+cold_hands_and_feets: 114
+anxiety: 114
+knee_pain: 114
+skin_peeling: 114
+blister: 114
+altered_sensorium: 114
+swelling_of_stomach: 114
+bloody_stool: 114
+hip_joint_pain: 114
+movement_stiffness: 114
+continuous_feel_of_urine: 114
+silver_like_dusting: 114
+red_sore_around_nose: 114
+passage_of_gases: 114
+irregular_sugar_level: 114
+lack_of_concentration: 114
+distention_of_abdomen: 114
+irritation_in_anus: 114
+swollen_legs: 114
+small_dents_in_nails: 114
+yellow_crust_ooze: 114
+internal_itching: 114
+mucoid_sputum: 114
+history_of_alcohol_consumption: 114
+unsteadiness: 114
+inflammatory_nails: 114
+fluid_overload: 114
+prominent_veins_on_calf: 114
+puffy_face_and_eyes: 114
+yellow_urine: 114
+visual_disturbances: 114
+drying_and_tingling_lips: 114
+toxic_look_(typhos): 114
+belly_pain: 114
+acute_liver_failure: 114
+shivering: 108
+muscle_wasting: 108
+patches_in_throat: 108
+sunken_eyes: 108
+weakness_in_limbs: 108
+pus_filled_pimples: 108
+nodal_skin_eruptions: 108
+ulcers_on_tongue: 108
+dehydration: 108
+weakness_of_one_body_side: 108
+blackheads: 108
+dischromic _patches: 108
+watering_from_eyes: 108
+extra_marital_contacts: 108
+spinning_movements: 108
+scurring: 108
+spotting_ urination: 108
+swollen_blood_vessels: 108
+foul_smell_of urine: 102
+
+MISSING VALUES
+------------------------------------------------------------
+Symptom_4: 348
+Symptom_5: 1206
+Symptom_6: 1986
+Symptom_7: 2652
+Symptom_8: 2976
+Symptom_9: 3228
+Symptom_10: 3408
+Symptom_11: 3726
+Symptom_12: 4176
+Symptom_13: 4416
+Symptom_14: 4614
+Symptom_15: 4680
+Symptom_16: 4728
+Symptom_17: 4848
+
+Duplicate rows: 4616

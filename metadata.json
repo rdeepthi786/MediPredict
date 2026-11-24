@@ -1,0 +1,6 @@
+{
+  "name": "MediPredict",
+  "description": "Multi-Disease Prediction System with Confidence Score and AI Health Assistant",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

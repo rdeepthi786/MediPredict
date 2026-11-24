@@ -1,6 +1,6 @@
 # MediPredict — Multi-Disease Prediction System with Confidence Score & AI Health Assistant
 
-MediPredict is a production-grade clinical decision-support and educational research web application. It integrates verified machine-learning models for multiple chronic and acute conditions (Diabetes, Cardiovascular Disease, Chronic Kidney Disease, and General Symptom Multi-Disease Classifier) with model confidence scores, SHAP (SHapley Additive exPlanations) feature attribution, an AI Health Assistant powered by Gemini 3.8 Flash, browser voice symptom input, text-to-speech audio guidance, and downloadable PDF clinical reports.
+MediPredict is a production-grade clinical decision-support web application. It integrates machine-learning models for multiple chronic and acute conditions (Diabetes, Cardiovascular Disease, Chronic Kidney Disease, and General Symptom Multi-Disease Classifier) with model confidence scores, SHAP (SHapley Additive exPlanations) feature attribution, an AI Health Assistant powered by Gemini 3.8 Flash, browser voice symptom input, text-to-speech audio guidance, and downloadable PDF clinical reports.
 
 ---
 
@@ -55,7 +55,7 @@ MediPredict is a production-grade clinical decision-support and educational rese
 4. **AI Health Assistant (Gemini 3.8 Flash)**:
    - Server-side integration using `@google/genai`.
    - Context-aware conversation retaining patient's active prediction, lab values, and risk level.
-   - Strict clinical guardrails with emergency symptom detection and automatic offline educational fallback.
+   - Strict clinical guardrails with emergency symptom detection and automatic offline guidance fallback.
 5. **Voice Symptom Input**:
    - Uses browser Web Speech API (`SpeechRecognition`).
    - Allows users to speak symptoms, review/edit the recognized transcript, and automatically map symptoms.
@@ -133,7 +133,3 @@ PORT=3000
 ```
 
 ---
-
-## 🏥 Clinical & Educational Disclaimer
-
-MediPredict is an academic and research machine-learning decision-support tool. **It is NOT a certified medical device, does not provide official medical diagnoses, and does not prescribe pharmaceuticals.** Always consult a qualified physician or healthcare provider for medical advice, diagnosis, or treatment. In medical emergencies, contact your local emergency medical service immediately.
